@@ -64,7 +64,7 @@ apt-get purge -y 其余内核名称
 七、重启：reboot
 
 
-八、启用BBRplus:
+八、启用BBRPLUS:
 
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 
